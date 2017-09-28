@@ -47,7 +47,7 @@
         }
 
         this.$store.dispatch("send_code",{
-          codeType:'BIND_AGENT_PHONE',
+          codeType:'BIND_SHOP_PHONE',
           phone:vm.contactTel
         }).then(res=>{
           Toast({

@@ -17,6 +17,7 @@
 </template>
 <script>
   import { Toast } from 'mint-ui';
+
   export default {
     name: 'AddCard',
     data () {

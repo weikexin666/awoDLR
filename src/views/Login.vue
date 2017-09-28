@@ -143,7 +143,7 @@
                   position: 'bottom',
                   duration: 2000
                 });
-                window.location.href = 'http://wechat.awo123.cn/agent/index.html'
+                window.location.href = 'http://ag.awo123.cn/index.html'
                 return
               }
               vm.openWin('home')
@@ -162,7 +162,7 @@
                   position: 'bottom',
                   duration: 2000
                 });
-                window.location.href = 'http://wechat.awo123.cn/agent/index.html'
+                window.location.href = 'http://ag.awo123.cn/index.html'
                 return
               }
                 if(err.code == 80027){

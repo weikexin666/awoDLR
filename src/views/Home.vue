@@ -175,6 +175,7 @@
     },
     created(){
       this.getData();//获取数据
+      this.$parent.getWxShare()//app.vue 微信分享
     },
     mounted() {
 //      alert(this.$route.query.code)
@@ -234,7 +235,7 @@
   .bg{
     width: 100%;
     height: 150px;
-    background-image: url(http://wechat.awo123.cn/agent/lib/images/bg.png);
+    background-image: url(http://ag.awo123.cn/lib/images/bg.png);
     background-size: cover;
   }
   .top{

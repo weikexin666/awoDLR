@@ -1,8 +1,10 @@
 
 
-const host='http://192.168.1.89:80'; //服务器
+// const host='http://ag.awo123.cn:8080/ag-api'; //服务器
 // const host='http://192.168.1.122:81/agent-wechat-api/'; //服务器
 // const host='http://hus.ngrok.cc'; //服务器
+// const host='http://hus.viphk.ngrok.org'; //服务器
+const host='http://ag.awo123.cn:8080/ag-api'; //服务器
 
 
 export const HOST=host;

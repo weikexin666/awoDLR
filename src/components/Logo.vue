@@ -1,7 +1,7 @@
 <template>
   <div class="box">
     <div class="logo">
-      <img src="http://wechat.awo123.cn/agent/lib/images/logo.png" alt="" width="40%">
+      <img src="http://wechat.awo123.cn/lib/images/logo.png" alt="" width="40%">
     </div>
     <div class="title">
       <p>{{title}}</p>

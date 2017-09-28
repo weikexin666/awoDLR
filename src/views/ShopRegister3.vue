@@ -14,14 +14,14 @@
               <!--<input type="file" accept="image/*"  id="input1" @change="change('input1')" >-->
               <!--<img src="/static/images/img.png" alt="" onclick="showPicture(this)" >-->
               <div class="img-box">
-                <img src="http://wechat.awo123.cn/agent/lib/images/img.png" id="img1" alt="" style="position: relative;width:40%;">
+                <img src="http://ag.awo123.cn/lib/images/img.png" id="img1" alt="" style="position: relative;width:40%;">
                 <input type="file" class="file" accept="image/*"  id="input1"  @change="change('0')" >
               </div>
             </div>
             <div class="right">
               <p>背面：</p>
               <div class="img-box">
-                <img src="http://wechat.awo123.cn/agent/lib/images/img.png" id="img2" alt="" style="position: relative;width:40%;">
+                <img src="http://ag.awo123.cn/lib/images/img.png" id="img2" alt="" style="position: relative;width:40%;">
                 <input type="file" class="file" accept="image/*"  id="input2"  @change="change('1')" >
               </div>
             </div>
@@ -35,7 +35,7 @@
           <div class="submitImg">
             <div class="left">
               <div class="img-box">
-                <img src="http://wechat.awo123.cn/agent/lib/images/img.png" id="img3" alt="" style="position: relative;width:40%;">
+                <img src="http://ag.awo123.cn/lib/images/img.png" id="img3" alt="" style="position: relative;width:40%;">
                 <input type="file" class="file" accept="image/*"  id="input3"  @change="change('2')" >
               </div>
             </div>
@@ -49,7 +49,7 @@
           <div class="submitImg">
             <div class="left">
               <div class="img-box">
-                <img src="http://wechat.awo123.cn/agent/lib/images/img.png" id="img4" alt="" style="position: relative;width:40%;">
+                <img src="http://ag.awo123.cn/lib/images/img.png" id="img4" alt="" style="position: relative;width:40%;">
                 <input type="file" class="file" accept="image/*"  id="input4"  @change="change('3')" >
               </div>
             </div>
