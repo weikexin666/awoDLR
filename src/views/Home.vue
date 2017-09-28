@@ -20,7 +20,7 @@
               <span>推荐</span>
             </div>
           </div>
-          <div class="options" @click="openWin('ManagementBankCard')">
+          <div class="options" @click="openWin('ManagementBankCard',{type:'home'})">
             <div class="icon">
               <i class="iconfont icon-attachment"></i>
               <span>管理</span>

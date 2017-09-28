@@ -93,7 +93,7 @@
       var vm = this;
       this.getBanks();
 
-      if(!vm.$store.state.user.cashPwd ){
+      if(!vm.$store.state.user.cashPwd  && vm.$route.query.value.type == 'home' ){
         document.getElementsByClassName('changePassword')[0].innerHTML = '设置提现密码'
         Toast({
           message:'您还没有设置提现密码哦～' ,
